@@ -60,8 +60,10 @@ shinyUI(navbarPage(title ="UBER Pickups in New York City",
                             
                             sidebarLayout(
                               sidebarPanel(
-                                h3("Busiest Time in NYC Borough for Uber and Lyft"),
-                                helpText("Select a time to plot number of Uber and Lyft trips in each borough."),
+                                h3("Busiest Time in NYC Borough for Uber and Lyft in 2014"),
+                                helpText("Select a time to plot number of Uber and Lyft trips in each borough.
+                                          These plots are generated using 6 months of data available for Uber: April-September, 2014
+                                          and 3 months of data available for Lyft: Aug - Sep 2014"),
                                 selectInput("vary", "Time:",
                                             choices =c("Month","Day of Week","Hour")
                                 
@@ -79,7 +81,9 @@ shinyUI(navbarPage(title ="UBER Pickups in New York City",
                                 ,
                                 hr(),
                                 h3("Exploring Uber and Lyft"),
-                                helpText("Select the company to plot."),
+                                helpText("Select the company to plot. This last chart aims to visualize
+                                         the distribution of pickups among NYC Boroughs for both Uber 
+                                         and Lyft"),
                                 selectInput("plot","Company",
                                             choices = c("Uber"="Uber",
                                                         "Lyft"="Lyft")
@@ -105,7 +109,7 @@ shinyUI(navbarPage(title ="UBER Pickups in New York City",
                                 br(),
                                 sliderInput(
                                   "rfreq",
-                                  h4("Minimum Frequency:"),
+                                  h4("Minimum Number of Trips:"),
                                   min = 1000,
                                   max = 176800,
                                   value = 20000

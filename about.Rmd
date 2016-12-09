@@ -7,8 +7,9 @@ output: html_document
 Uber Pick-UP in NYC Shiny App 
 ==================================
 Authors: 
-  - Amy Sigrid Butts 
   - Gemy Ngoc Pham
+  - Amy Sigrid Butts 
+
 
 Yellow cabs are easy to spot in the New York City traffic, but Uber drivers are more hidden. This Shiny App aims to explore the Uber Kaggle dataset from  the NYC Taxi & Limousine Commission (TLC)  to explore Uber activities in different boroughs of NYC. 
 
