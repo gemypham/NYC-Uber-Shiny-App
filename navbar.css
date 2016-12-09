@@ -1,0 +1,9 @@
+body, 
+#selector, 
+.navbar-inner {
+    background-color: #222233 !important;
+} 
+
+.navbar-static-top {
+  background-color: #222233 !important;
+}

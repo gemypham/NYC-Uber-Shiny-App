@@ -1,0 +1,82 @@
+View(uber2014)
+load("/Users/Gemy/Uber-ShinyApp/Data/al.Rdata")
+uber2014=map
+map <- uber2014
+al2 <- al2
+save(map, file ='/Users/Gemy/Uber-ShinyApp/Data/map.Rdata')
+load("/Users/Gemy/Uber-ShinyApp/Data/zone_txt.Rdata")
+al <- al2
+load(al,"/Users/Gemy/Uber-ShinyApp/Data/al.Rdata")
+load(al,file ="/Users/Gemy/Uber-ShinyApp/Data/al.Rdata")
+save(al,file ="/Users/Gemy/Uber-ShinyApp/Data/al.Rdata")
+Zone.df = zone_txt
+zone_txt = Zone.df
+save(zone_txt,file ="/Users/Gemy/Uber-ShinyApp/Data/zone_txt.Rdata")
+setwd("~/Uber-ShinyApp")
+shiny::runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+map$hour <- as.numeric(map$hour)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+hour <- c(
+"0:00-1:00"=0,
+"1:00-2:00"=1,
+"2:00-3:00"=2,"3:00-4:00"=3, "4:00-5:00"=4, "5:00-6:00"=5,
+"6:00-7:00"=6,
+"7:00-8:00"=7, "8:00-9:00"=8, "9:00-10:00"=9,
+"10:00-11:00"=10 , "11:00-12:00"=11, "12:00-13:00"=12 ,
+"13:00-14:00"=13 , "14:00-15:00"=14, "15:00-16:00"=15 ,
+"16:00-17:00"=16 , "17:00-18:00"=17 , "18:00-19:00"=18 ,
+"19:00-20:00"=19 , "20:00-21:00"=20, "21:00-22:00"=21,
+"22:00-23:00"=22, "23:00-24:00"=23)
+runApp()
+df <- map %>%
+filter(month >= input$tr[1],
+month <= input$tr[2]) %>%
+group_by_(input$tm) %>%
+summarise(., count = n())
+library(shiny)
+library(shinydashboard)
+library(googleVis)
+library(datasets)
+library(leaflet)
+library(dplyr)
+library(shinythemes)
+library(ggplot2)
+library(ggthemes)
+library(wordcloud)
+library(dygraphs)
+library(xts)
+runApp()
+runApp()
+runApp()
+View(al2)
+runApp()
+runApp('~/Uber-NYC')
+runApp('~/Desktop')
+runApp('~/Desktop')
+setwd("~/Uber-ShinyApp")
+shiny::runApp()
+View(uber_2014)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+?img
+runApp()
+runApp()
+runApp()
+shiny::runApp()
+runApp()
+runApp()
