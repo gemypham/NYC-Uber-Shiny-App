@@ -28,6 +28,6 @@ library(DT)
 
 # load data
 
-load("Data/uber_2014.RData")
-load("Data/Lyft_2014.RData")
-load("Data/zone_txt.RData")
+load("Data/uber_2014.Rdata")
+load("Data/Lyft_2014.Rdata")
+load("Data/zone_txt.Rdata")

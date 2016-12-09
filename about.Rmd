@@ -28,13 +28,10 @@ For the Uber trip data from 2014, there are six files of raw data on Uber pickup
 - Base: The TLC base company code affiliated with the Uber pickup
 
 This Shiny app explores the Uber trip data from 2014 (April - September)
-We want to investigate how Uber is performing in New York City (NYC). More specifically we wanted to look at: 
+We want to investigate: 
 How has Uber changed the dynamics of NYC for-hire-vehicle service?
- 
-With an outset in the Kaggle dataset, we want to explore and visualize the data to provide an answer to this question.Overall, it is evident that most pickups occur in Manhattan for both Uber and Lyft. However there are some indications that a significant number of pickups also occur in at least a few other Boroughs.
 
 The dataset is named "Uber Pickups in New York City" and it is available here: https://www.kaggle.com/fivethirtyeight/uber-pickups-in-new-york-city. 
-
 
 Take a look for yourself at this Shiny App. 
 
