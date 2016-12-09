@@ -20,15 +20,9 @@ library(ggthemes)
 library(wordcloud)
 library(dygraphs)
 library(xts)
-library(ggmap)
 library(sp)
 library(maptools)
-library(rgdal)
-library(raster)
-library(rgeos)
 library(plotly)
-library(tidyverse)
-library(viridis)
 library(knitr)
 library(DT)
 
@@ -37,7 +31,3 @@ library(DT)
 load("Data/uber_2014.RData")
 load("Data/Lyft_2014.RData")
 load("Data/zone_txt.RData")
-
-
-
-
